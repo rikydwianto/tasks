@@ -1,0 +1,30 @@
+name: Build iOS IPA
+
+on:
+  push:
+    branches: [main]  # Ganti dengan branch yang sesuai
+
+jobs:
+  build:
+    runs-on: macos-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Flutter
+      uses: subosito/flutter-action@v2
+      with:
+        flutter-version: '3.19.0'  # Ganti versi sesuai kebutuhan
+
+    - name: Install dependencies
+      run: flutter pub get
+
+    - name: Build IPA (Release)
+      run: flutter build ipa --release
+
+    - name: Upload IPA artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: ios-ipa
+        path: build/ios/ipa/*.ipa
