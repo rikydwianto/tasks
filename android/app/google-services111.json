@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "639013215151",
+    "firebase_url": "https://kpikomida-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "kpikomida",
+    "storage_bucket": "kpikomida.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:639013215151:android:0a3d49957d295bd50aad5a",
+        "android_client_info": {
+          "package_name": "id.co.komida.kpi_new"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRooW7MxGLIrD-R3AqYej7RNtEMyhY0Jw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:639013215151:android:79d6171d3352c28b0aad5a",
+        "android_client_info": {
+          "package_name": "id.my.comdev.todolist.todolist"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRooW7MxGLIrD-R3AqYej7RNtEMyhY0Jw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
